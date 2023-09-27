@@ -111,9 +111,9 @@ python3 main.py
 ### Extra Variables
 
 * `CUSTOM_CAPTION` put your Custom caption text if you want Setup Custom Caption, you can use HTML and <a href='https://github.com/VJBots/Advance-File-Share-Bot/blob/main/README.md#custom_caption'>fillings</a> for formatting (only for documents)
-* `DISABLE_CHANNEL_BUTTON` Put True to Disable Channel Share Button, Default if False
+* `DISABLE_CHANNEL_BUTTON` Put False to Disable Channel Share Button, Default if True
 * `BOT_STATS_TEXT` put your custom text for stats command, use HTML and <a href='https://github.com/VJBots/Advance-File-Share-Bot/blob/main/README.md#custom_stats'>fillings</a>
-* `USER_REPLY_TEXT` put your text to show when user sends any message, use HTML
+* `USER_REPLY_TEXT` hello, use HTML
 
 
 ### Fillings
