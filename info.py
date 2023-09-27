@@ -24,10 +24,10 @@ PICS = (environ.get('PICS', 'https://te.legra.ph/file/119729ea3cdce4fefb6a1.jpg'
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1495439965').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001781974042').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('ADMINS', '1495439965').split()]
+auth_users = [int(ADMINS) if id_pattern.search(ADMINS) else in environ.get('ADMINS', '1495439965').split()]
 AUTH_USERS = (ADMINS) if ADMINS else []
 auth_grp = environ.get('ADMINS)
-AUTH_GROUPS = [] if ADMINS else None
+AUTH_GROUPS = 
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://809sainihemant1:jTZgDjvbqa0Kuyvm@cluster0.vmfclkm.mongodb.net/?retryWrites=true&w=majority")
